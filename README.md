@@ -4,17 +4,19 @@
 Progressive enhancement and graceful degradation
 ------
 
-<p>Progressive Enhancement has the following principles:</p> 
+Progressive Enhancement has the following principles:
 
 *  Basic content and functionality should be accessible to all web browsers
 *  Sparse, semantic markup contains all content  
 *  Enhanced layout &amp; behaviour is provided by externally linked CSS and JavaScript  
 *  End-user web browser preferences are respected 
 
-<p>Graceful Degradation provides fall-backs for older browsers</p> <p> 
+Graceful Degradation provides fall-backs for older browsers
 
-==============
-<h4>Semantic HTML</h4>
+
+Semantic HTML
+------
+
 <p>The use of syntactic markup to reinforce the meaning of the information in webpages. e.g. &lt;nav&gt; &lt;header&gt; &lt;footer&gt; &lt;audio&gt; &lt;video&gt;</p> <p> <hr>   
 <h4>Optimizing a website's assets/resources</h4>
 <ul>
