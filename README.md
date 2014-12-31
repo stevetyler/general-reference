@@ -12,8 +12,6 @@ Progressive Enhancement has the following principles:
 *  End-user web browser preferences are respected 
 
 Graceful Degradation provides fall-backs for older browsers
---
-
 
 Semantic HTML
 ------
