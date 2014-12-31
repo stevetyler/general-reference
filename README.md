@@ -1,5 +1,9 @@
+Document Object Model
+------
 
+The Document Object Model is a cross-platform and language independent convention for representing and interacting with objects in HTML, XML &amp; XHTML documents. (taken from Wikipedia)
 
+To <a href="http://en.wikipedia.org/wiki/Web_browser_engine">render</a> a document such as an HTML page, most web browsers use an internal model similar to the DOM. The nodes of every document are organized in a <a href="http://en.wikipedia.org/wiki/Tree_structure">tree structure</a>, called the <i>DOM tree</i>, with topmost node named "Document object". When an HTML page is rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen. The DOM is also the way JavaScript transmits the state of the browser in HTML pages.</p> <p>Web browsers rely on layout engines to parse HTML into a DOM. Some layout engines, such as <a href="http://en.wikipedia.org/wiki/Trident_(layout_engine)">Trident/MSHTML</a>, are associated primarily or exclusively with a particular browser, such as Internet Explorer. Others, such as <a href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a>, <a href="http://en.wikipedia.org/wiki/WebKit">WebKit</a>, and <a href="http://en.wikipedia.org/wiki/Gecko_(layout_engine)">Gecko</a>, JavaScript rendered in HTML pages, collection of web pages shared by a number of browsers, such as <a href="http://en.wikipedia.org/wiki/Google_Chrome">Google Chrome</a>, <a href="http://en.wikipedia.org/wiki/Opera_(web_browser)">Opera</a>, <a href="http://en.wikipedia.org/wiki/Safari_(web_browser)">Safari</a>, and <a href="http://en.wikipedia.org/wiki/Firefox">Firefox</a>. The different layout engines implement the DOM standards to varying degrees of compliance.
 
 Progressive enhancement and graceful degradation
 ------
@@ -111,12 +115,6 @@ The process from the time you type in a URL to it finishing loading on your scre
 * External resources (JS/CSS/images/flash/videos..) will be requested <em>in sequence </em>for JS, it will be executed by JS engine for CSS, it will be rendered by CSS engine and HTML's display will be adjusted based on the CSS (<em>also in sequence or not</em>?)  
 * If there's an iframe in the DOM, then a separate same process will be executed from step 1-10
  
-Document object model
-------
-
-The Document Object Model is a cross-platform and language independent convention for representing and interacting with objects in HTML, XML &amp; XHTML documents. (taken from Wikipedia)
-
-To <a href="http://en.wikipedia.org/wiki/Web_browser_engine">render</a> a document such as an HTML page, most web browsers use an internal model similar to the DOM. The nodes of every document are organized in a <a href="http://en.wikipedia.org/wiki/Tree_structure">tree structure</a>, called the <i>DOM tree</i>, with topmost node named "Document object". When an HTML page is rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen. The DOM is also the way JavaScript transmits the state of the browser in HTML pages.</p> <p>Web browsers rely on layout engines to parse HTML into a DOM. Some layout engines, such as <a href="http://en.wikipedia.org/wiki/Trident_(layout_engine)">Trident/MSHTML</a>, are associated primarily or exclusively with a particular browser, such as Internet Explorer. Others, such as <a href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a>, <a href="http://en.wikipedia.org/wiki/WebKit">WebKit</a>, and <a href="http://en.wikipedia.org/wiki/Gecko_(layout_engine)">Gecko</a>, JavaScript rendered in HTML pages, collection of web pages shared by a number of browsers, such as <a href="http://en.wikipedia.org/wiki/Google_Chrome">Google Chrome</a>, <a href="http://en.wikipedia.org/wiki/Opera_(web_browser)">Opera</a>, <a href="http://en.wikipedia.org/wiki/Safari_(web_browser)">Safari</a>, and <a href="http://en.wikipedia.org/wiki/Firefox">Firefox</a>. The different layout engines implement the DOM standards to varying degrees of compliance.
 
 Projects using tabs instead of spaces or vice versa
 ------
@@ -127,5 +125,5 @@ Conform to conventions and stay consistent. Suggest using EditorConfig plugins (
 API Explanation
 ------
 
-Application Programming interface)
+Application Programming interface
 <p><a title="https://zapier.com/learn/apis/" href="https://zapier.com/learn/apis/">https://zapier.com/learn/apis/</a></p>
