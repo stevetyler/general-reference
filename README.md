@@ -78,14 +78,3 @@ Web Reference
 <h4>Projects using tabs instead of spaces or vice versa</h4> <p>Conform to conventions and stay consistent. Suggest using EditorConfig plugins (<a href="http://editorconfig.org">http://editorconfig.org</a>)</p> <h4>Write a simple slideshow page bonus points if it does not use JS.</h4> <h4>What tools do you use to test your code's performance?</h4> <h4>Profiler, JSPerf, Dromaeo</h4> <p>
 
 <h4>Explain what an API is (Application Programming interface)</h4> <p><a title="https://zapier.com/learn/apis/" href="https://zapier.com/learn/apis/">https://zapier.com/learn/apis/</a></p>
-<hr />
-<h4>What are your favourite parts about the developer tools you use?</h4> 
-
-<p>Remote debugging for Opera Mobile</p> 
-
-<h4>UI, Security, Performance, SEO, Maintainability or Technology considerations while building a web application or site</h4> 
----
-<h4>Preferred development environment. (OS, Editor, Browsers, Tools etc.)</h4> <ul> <li>Mac mini 2.5GHz i5, 4GB, 500GB HD, OSX Mavericks  <li>Sublime Text2 (originally Netbeans),  <li>Chrome Dev Tools,  <li>Firebug </li></ul> 
-<hr />
-<h4>Workflow when creating a web page?</h4> <p>Photoshop mockup, Initializr, Git init, push to Github</p> 
-<hr>
