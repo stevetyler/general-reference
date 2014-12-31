@@ -1,8 +1,9 @@
-General Web Reference
-=====================
+
 
 
 <h4>Progressive enhancement and graceful degradation</h4>
+------
+
 <p>Progressive Enhancement has the following principles:</p> 
 
 *  Basic content and functionality should be accessible to all web browsers
