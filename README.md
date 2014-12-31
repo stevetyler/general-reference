@@ -1,7 +1,7 @@
 
 
 
-<h4>Progressive enhancement and graceful degradation</h4>
+Progressive enhancement and graceful degradation
 ------
 
 <p>Progressive Enhancement has the following principles:</p> 
