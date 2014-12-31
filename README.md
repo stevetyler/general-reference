@@ -12,12 +12,11 @@ Progressive Enhancement has the following principles:
 *  End-user web browser preferences are respected 
 
 Graceful Degradation provides fall-backs for older browsers
+--
 
 
 Semantic HTML
 ------
---
-
 
 The use of syntactic markup to reinforce the meaning of the information in webpages. e.g. &lt;nav&gt; &lt;header&gt; &lt;footer&gt; &lt;audio&gt; &lt;video&gt;
 
