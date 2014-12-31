@@ -17,8 +17,11 @@ Graceful Degradation provides fall-backs for older browsers
 Semantic HTML
 ------
 
-<p>The use of syntactic markup to reinforce the meaning of the information in webpages. e.g. &lt;nav&gt; &lt;header&gt; &lt;footer&gt; &lt;audio&gt; &lt;video&gt;</p> <p> <hr>   
-<h4>Optimizing a website's assets/resources</h4>
+The use of syntactic markup to reinforce the meaning of the information in webpages. e.g. &lt;nav&gt; &lt;header&gt; &lt;footer&gt; &lt;audio&gt; &lt;video&gt;
+
+Optimizing a website's assets/resources
+------
+
 <ul>
 <li>File concatenation</li>
 <li>Minification</li>
@@ -26,17 +29,20 @@ Semantic HTML
 <li>Caching</li>
 <li>Use task runner like Grunt / Gulp</li>
 </ul>
-<hr />   
-<h4>Serving site assets from multiple domains</h4> 
-<p>This can increase the number of assets a browser can download in parallel.</p>
+ 
+Serving site assets from multiple domains
+------
+
+This can increase the number of assets a browser can download in parallel.
 <ul>
 <li>IE7 allows only 2 concurrent connections</li>
 <li>IE8 and Chrome allows 6</li>
 <li>Firefox allows 8</li>
 </ul>
-<p>Be aware that additional DNS lookups would be involved and could be 150ms or longer. This added delay could easily offset any benefit of parallel downloads.</p>
-<hr />
-<h4>Ways to decrease page load (perceived or actual load time)</h4>
+Be aware that additional DNS lookups would be involved and could be 150ms or longer. This added delay could easily offset any benefit of parallel downloads.
+
+Ways to decrease page load (perceived or actual load time)
+------
 <p>Profiling a web page usually involves a tool such as Firebug to determine what components (i.e. images, CSS files, HTML documents, and JavaScript files) are being requested by the user, how long the component takes to load, and how big it is.</p>
 
 *  Save images in the right format to reduce their file size  *  Minify your CSS and JavaScript and combine files to reduce HTTP requests  
