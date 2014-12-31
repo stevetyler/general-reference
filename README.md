@@ -11,7 +11,7 @@ Web Reference
 
 <p>Graceful Degradation provides fall-backs for older browsers</p> <p> 
 
-_____
+****
 
 <h4>Semantic HTML</h4>
 <p>The use of syntactic markup to reinforce the meaning of the information in webpages. e.g. &lt;nav&gt; &lt;header&gt; &lt;footer&gt; &lt;audio&gt; &lt;video&gt;</p> <p> <hr>   
