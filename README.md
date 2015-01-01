@@ -18,7 +18,7 @@ Progressive Enhancement has the following principles:
 Graceful Degradation provides fall-backs for older browsers
 
 
-Optimizing a website's assets/resources
+Optimizing a site's assets / resources
 ------
 
 * File concatenation
