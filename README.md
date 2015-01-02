@@ -12,7 +12,7 @@
   1. [The process from the time you type in a URL to it finishing loading on your screen](#url)
   1. [Semantic HTML](#semantic)
   2. [Projects using tabs instead of spaces or vice versa](#tabs)
-  3. [API Explanation](#API)
+  3. [API Explanation](#api)
 
 
 <a name='dom'>Document Object Model<a/>
