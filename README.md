@@ -131,7 +131,13 @@ Flash of unstyled content. FOUC occurs with certain JavaScript and jQuery implem
 <a name='semantic'>Semantic HTML<a/>
 ------
 
-The use of syntactic markup to reinforce the meaning of the information in webpages. e.g. &lt;nav&gt; &lt;header&gt; &lt;footer&gt; &lt;audio&gt; &lt;video&gt;
+The use of syntactic markup to reinforce the meaning of the information in webpages. 
+e.g. 
+* &lt;nav&gt;
+* &lt;header&gt; 
+* &lt;footer&gt; 
+* &lt;audio&gt; 
+* &lt;video&gt;
 
 
 <a name='tabs'>Projects using tabs instead of spaces or vice versa<a/>
