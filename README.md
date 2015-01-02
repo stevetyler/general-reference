@@ -10,9 +10,8 @@
   1. [The importance of standards and standards bodies](#standards)
   1. [FOUC and how to avoid it](#FOUC)
   1. [The process from the time you type in a URL to it finishing loading on your screen](#url)
-  1. [Semantic HTML](#semantic)
-  2. [Projects using tabs instead of spaces or vice versa](#tabs)
-  3. [API Explanation](#api)
+  1. [Projects using tabs instead of spaces or vice versa](#tabs)
+  1. [API Explanation](#api)
 
 
 <a name='dom'>Document Object Model<a/>
@@ -128,18 +127,6 @@ Flash of unstyled content. FOUC occurs with certain JavaScript and jQuery implem
 * External resources (JS/CSS/images/flash/videos..) will be requested <em>in sequence </em>for JS, it will be executed by JS engine for CSS, it will be rendered by CSS engine and HTML's display will be adjusted based on the CSS (<em>also in sequence or not</em>?)  
 * If there's an iframe in the DOM, then a separate same process will be executed from step 1-10
  
-<a name='semantic'>Semantic HTML<a/>
-------
-
-The use of syntactic markup to reinforce the meaning of the information in webpages. 
-e.g. 
-* &lt;nav&gt;
-* &lt;header&gt; 
-* &lt;footer&gt; 
-* &lt;audio&gt; 
-* &lt;video&gt;
-
-
 <a name='tabs'>Projects using tabs instead of spaces or vice versa<a/>
 ------
 
