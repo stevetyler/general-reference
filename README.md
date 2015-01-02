@@ -1,7 +1,7 @@
 <a name='toc'>Table of Contents</a>
 ------
 
-  1. [Document object model](#dom)
+  1. [Document Object Model](#dom)
   1. [Progressive enhancement vs graceful degradation](#pegd)
   1. [Optimizing a site's assets / resources](#optimization)
   1. [Serving site assets from multiple domains](#multidomains)
@@ -14,7 +14,7 @@
   1. [API Explanation](#api)
 
 
-<a name='dom'>Document object model<a/>
+<a name='dom'>Document Object Model<a/>
 ------
 
 The Document Object Model is a cross-platform and language independent convention for representing and interacting with objects in HTML, XML &amp; XHTML documents. (taken from Wikipedia)
