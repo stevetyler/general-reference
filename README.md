@@ -5,9 +5,14 @@
   1. [Progressive Enhancement vs Graceful Degradation](#pegd)
   1. [Optimizing a Site's Assets / Resources](#optimization)
   1. [Serving site assets from multiple domains](#multidomains)
-  1.
-
-
+  1. [Ways to decrease page load (perceived or actual load time)](#pageload)
+  1. [Long-polling, websockets and SSE](#longpolling)
+  1. [The importance of standards and standards bodies](#standards)
+  1. [FOUC and how to avoid it](#FOUC)
+  1. [The process from the time you type in a URL to it finishing loading on your screen](#url)
+  1. [Semantic HTML](#semantic)
+  2. [Projects using tabs instead of spaces or vice versa](#tabs)
+  3. [API Explanation](#API)
 
 
 <a name='dom'>Document Object Model<a/>
@@ -50,7 +55,7 @@ This can increase the number of assets a browser can download in parallel.
 
 Be aware that additional DNS lookups would be involved and could be 150ms or longer. This added delay could easily offset any benefit of parallel downloads.
 
-Ways to decrease page load (perceived or actual load time)
+<a name='pageload'>Ways to decrease page load (perceived or actual load time)<a/>
 ------
 
 Profiling a web page usually involves a tool such as Firebug to determine what components (i.e. images, CSS files, HTML documents, and JavaScript files) are being requested by the user, how long the component takes to load, and how big it is.
@@ -61,7 +66,7 @@ Profiling a web page usually involves a tool such as Firebug to determine what c
 *  Monitor website performance  
 *  For a website it’s responsible for getting/sending HTTP requests/responses to the right people and serves all of your web page components. If your web server isn’t performing well, you won’t get the maximum benefit of your optimization efforts  *  Use Google Webmaster Tools 
 
-Long-polling, websockets and SSE
+<a name='longpolling'>Long-polling, websockets and SSE<a/>
 ------
 
 Regular HTTP: 
@@ -95,12 +100,12 @@ HTML5 Websockets:
 * The server and the client can now send each other messages when new data (on either side) is available in real-time. Server will need to have an event loop  <li>With WebSockets it is possible to connect with a server from another domain  
 * It is also possible to use a third party hosted WebSockets server, for example <a href="http://pusher.com/">Pusher</a> or <a href="http://www.leggetter.co.uk/real-time-web-technologies-guide">others</a>. This way you'll only have to implement the client side 
 
-The importance of standards and standards bodies.
+<a name='standards'>The importance of standards and standards bodies.<a/>
 ------
 
 Standards bodies such as the World Wide Web Consortium (W3C) were created as forums to establish agreement across the industry and among vendors. Other standards groups have formed since, most notably the HTML5-focused Web Hypertext Application Technology Working Group (WHATWG).
 
-FOUC and how to avoid it
+<a name='FOUC'>FOUC and how to avoid it<a/>
 ------
 
 Flash of unstyled content. FOUC occurs with certain JavaScript and jQuery implementations where the scripts are used for styling and images, typically content that takes longer or hangs after the page loads.
@@ -109,7 +114,7 @@ Flash of unstyled content. FOUC occurs with certain JavaScript and jQuery implem
 * Put all scripts at the bottom  
 * Modernizr adds a class="no-js" to the html tag, and then he adds one &lt;script&gt; within the &lt;head&gt; that changes it back to 'js'&nbsp;
 
-The process from the time you type in a URL to it finishing loading on your screen.
+<a name='url'>The process from the time you type in a URL to it finishing loading on your screen<a/>
 ------
 
 * Enter the URL to the address bar  
@@ -123,19 +128,19 @@ The process from the time you type in a URL to it finishing loading on your scre
 * External resources (JS/CSS/images/flash/videos..) will be requested <em>in sequence </em>for JS, it will be executed by JS engine for CSS, it will be rendered by CSS engine and HTML's display will be adjusted based on the CSS (<em>also in sequence or not</em>?)  
 * If there's an iframe in the DOM, then a separate same process will be executed from step 1-10
  
-Semantic HTML
+<a name='semantic'>Semantic HTML<a/>
 ------
 
 The use of syntactic markup to reinforce the meaning of the information in webpages. e.g. &lt;nav&gt; &lt;header&gt; &lt;footer&gt; &lt;audio&gt; &lt;video&gt;
 
 
-Projects using tabs instead of spaces or vice versa
+<a name='tabs'>Projects using tabs instead of spaces or vice versa<a/>
 ------
 
 Conform to conventions and stay consistent. Suggest using EditorConfig plugins (<a href="http://editorconfig.org">http://editorconfig.org</a>) 
 
 
-API Explanation
+<a name='api'>API Explanation<a/>
 ------
 
 Application Programming interface
