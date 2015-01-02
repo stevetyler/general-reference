@@ -1,9 +1,9 @@
 <a name='toc'>Table of Contents</a>
 ------
 
-  1. [Document Object Model](#dom)
-  1. [Progressive Enhancement vs Graceful Degradation](#pegd)
-  1. [Optimizing a Site's Assets / Resources](#optimization)
+  1. [Document object model](#dom)
+  1. [Progressive enhancement vs graceful degradation](#pegd)
+  1. [Optimizing a site's assets / resources](#optimization)
   1. [Serving site assets from multiple domains](#multidomains)
   1. [Ways to decrease page load (perceived or actual load time)](#pageload)
   1. [Long-polling, websockets and SSE](#longpolling)
@@ -14,14 +14,14 @@
   1. [API Explanation](#api)
 
 
-<a name='dom'>Document Object Model<a/>
+<a name='dom'>Document object model<a/>
 ------
 
 The Document Object Model is a cross-platform and language independent convention for representing and interacting with objects in HTML, XML &amp; XHTML documents. (taken from Wikipedia)
 
 To <a href="http://en.wikipedia.org/wiki/Web_browser_engine">render</a> a document such as an HTML page, most web browsers use an internal model similar to the DOM. The nodes of every document are organized in a <a href="http://en.wikipedia.org/wiki/Tree_structure">tree structure</a>, called the <i>DOM tree</i>, with topmost node named "Document object". When an HTML page is rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen. The DOM is also the way JavaScript transmits the state of the browser in HTML pages.</p> <p>Web browsers rely on layout engines to parse HTML into a DOM. Some layout engines, such as <a href="http://en.wikipedia.org/wiki/Trident_(layout_engine)">Trident/MSHTML</a>, are associated primarily or exclusively with a particular browser, such as Internet Explorer. Others, such as <a href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a>, <a href="http://en.wikipedia.org/wiki/WebKit">WebKit</a>, and <a href="http://en.wikipedia.org/wiki/Gecko_(layout_engine)">Gecko</a>, JavaScript rendered in HTML pages, collection of web pages shared by a number of browsers, such as <a href="http://en.wikipedia.org/wiki/Google_Chrome">Google Chrome</a>, <a href="http://en.wikipedia.org/wiki/Opera_(web_browser)">Opera</a>, <a href="http://en.wikipedia.org/wiki/Safari_(web_browser)">Safari</a>, and <a href="http://en.wikipedia.org/wiki/Firefox">Firefox</a>. The different layout engines implement the DOM standards to varying degrees of compliance.
 
-<a name='pegd'>Progressive Enhancement vs Graceful Degradation<a/>
+<a name='pegd'>Progressive enhancement vs graceful degradation<a/>
 ------
 
 Progressive Enhancement has the following principles:
@@ -34,7 +34,7 @@ Progressive Enhancement has the following principles:
 Graceful Degradation provides fall-backs for older browsers
 
 
-<a name='optimization'>Optimizing a Site's Assets / Resources<a/>
+<a name='optimization'>Optimizing a site's assets / resources<a/>
 ------
 
 * File concatenation
