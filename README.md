@@ -12,6 +12,7 @@
   1. [The process from the time you type in a URL to it finishing loading on your screen](#url)
   1. [Projects using tabs instead of spaces or vice versa](#tabs)
   1. [API Explanation](#api)
+  1. [Bower](#bower)
 
 
 <a name='dom'>Document Object Model<a/>
@@ -138,3 +139,9 @@ Conform to conventions and stay consistent. Suggest using EditorConfig plugins (
 
 Application Programming interface
 <p><a title="https://zapier.com/learn/apis/" href="https://zapier.com/learn/apis/">https://zapier.com/learn/apis/</a></p>
+
+<a name='bower'>Bower package management<a/>
+------
+
+http://css-tricks.com/whats-great-bower/
+
