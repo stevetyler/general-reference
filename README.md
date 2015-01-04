@@ -11,8 +11,8 @@
   1. [FOUC and how to avoid it](#FOUC)
   1. [The process from the time you type in a URL to it finishing loading on your screen](#url)
   1. [Projects using tabs instead of spaces or vice versa](#tabs)
-  1. [API Explanation](#api)
-  1. [Bower](#bower)
+  1. [API explanation](#api)
+  1. [Bower package management ](#bower)
 
 
 <a name='dom'>Document Object Model<a/>
