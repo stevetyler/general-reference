@@ -8,7 +8,6 @@
   1. [Ways to decrease page load (perceived or actual load time)](#pageload)
   1. [Long-polling, websockets and SSE](#longpolling)
   1. [The importance of standards and standards bodies](#standards)
-  1. [FOUC and how to avoid it](#FOUC)
   1. [The process from the time you type in a URL to it finishing loading on your screen](#url)
   1. [Projects using tabs instead of spaces or vice versa](#tabs)
   1. [API explanation](#api)
