@@ -104,15 +104,6 @@ HTML5 Websockets:
 
 Standards bodies such as the World Wide Web Consortium (W3C) were created as forums to establish agreement across the industry and among vendors. Other standards groups have formed since, most notably the HTML5-focused Web Hypertext Application Technology Working Group (WHATWG).
 
-<a name='FOUC'>FOUC and how to avoid it<a/>
-------
-
-Flash of unstyled content. FOUC occurs with certain JavaScript and jQuery implementations where the scripts are used for styling and images, typically content that takes longer or hangs after the page loads.
-
-* Include your link tag(s) to stylesheets within the &lt;head&gt; of your web page documents  
-* Put all scripts at the bottom  
-* Modernizr adds a class="no-js" to the html tag, and then he adds one &lt;script&gt; within the &lt;head&gt; that changes it back to 'js'&nbsp;
-
 <a name='url'>The process from the time you type in a URL to it finishing loading on your screen<a/>
 ------
 
